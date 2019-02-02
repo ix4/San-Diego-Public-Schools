@@ -338,16 +338,24 @@ div.dataTables_scrollHead {
   color: #eee !important;
 }
 
-table.dataTable thead th {
-  text-align: left;
+.dataTables_scrollBody table thead {
+  visibility: hidden;
 }
 
-table.dataTable td {
-  padding-left: 18px !important;
+table.dataTable thead th {
+  text-align: left;
+  font-size: 12px;
+  padding: 4px !important;
+  padding-right: 18px !important;
+}
+
+.dataTable tbody td {
+  padding: 2px 4px !important;
+  apadding-right: 18px !important;
 }
 
 .dataTable * {
-  font-size: 14px !important;
+  font-size: 12px !important;
   border: 0 !important;
 }
 

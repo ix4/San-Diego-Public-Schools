@@ -26,7 +26,7 @@ Developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](h
 - Google Sheets Geocoder (v1.0) by Ilya Ilyankou and Jack Dougherty https://github.com/jackdougherty/google-sheets-geocoder (no license)
 - polylabel (Dec. 2016 customized) https://github.com/mapbox/polylabel to optimally place text labels in a polygon (ISC), with TinyQueue (v1.1.0) (https://github.com/mourner/tinyqueue), polylabel's dependency (ISC)
 - jQuery-CSV (v0.71) https://github.com/evanplaice/jquery-csv (MIT)
-- DataTables (v1.10.13) by SpryMedia Ltd. https://datatables.net (MIT)
+- DataTables (v1.10.19) by SpryMedia Ltd. https://datatables.net (MIT)
 
 ## Please submit any pull requests to our DEV repo
 - Leaflet Map FOR DEVELOPMENT https://jackdougherty.github.io/leaflet-maps-with-google-sheets-dev/index.html

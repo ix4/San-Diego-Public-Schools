@@ -10,9 +10,10 @@ function addFilters(map, points, layers, ptm) {
     'IB',
     'AVID',
     'Dual Language',
-    'Arts',
-    'Education Equity',
-    'US News'
+    'Free After School Care'
+    //'Arts',
+    //'Education Equity',
+    //'US News'
   ];
 
   // Property values for which filtering returns 'true'
@@ -23,9 +24,10 @@ function addFilters(map, points, layers, ptm) {
     'IB': ['IB', ['x']],
     'AVID': ['AVID', ['x']],
     'Dual Language': ['Dual Language', ['x']],
-    'Arts': ['Arts', ['x']],
-    'Education Equity': ['Education Equity', ['x']],
-    'US News': ['US News', ['gold', 'silver']],
+    'Free After School Care': ['Free After School Care', ['x']]
+    //'Arts': ['Arts', ['x']],
+    //'Education Equity': ['Education Equity', ['x']],
+    //'US News': ['US News', ['gold', 'silver']],
   }
 
   $('.ladder:last').after('<div id="filter" \
