@@ -267,7 +267,8 @@ $(window).on('load', function() {
       var table = $('#maptable').DataTable({
         paging: false,
         scrollCollapse: true,
-        scrollY: '200px',
+        //scrollY: '200px',
+        scrollY: 'calc(' + tableHeight + 'vh - 40px)',
         info: false,
         searching: false,
         columns: generateColumnsArray(),
